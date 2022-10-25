@@ -1,9 +1,9 @@
 import React from "react"
 import "./App.css"
-import HomePage from "./pages/HomePage.js"
-import AlbumPage from "./pages/AlbumPage.js"
-import NavMenu from "./components/NavMenu.js"
-import PlaySection from "./components/PlaySection.js"
+import HomePage from "./pages/HomePage/HomePage.js"
+import AlbumPage from "./pages/AlbumPage/AlbumPage.js"
+import NavMenu from "./components/NavMenu/NavMenu.js"
+import PlaySection from "./components/PlaySection/PlaySection.js"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 

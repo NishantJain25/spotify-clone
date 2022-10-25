@@ -1,5 +1,7 @@
 import React from "react"
-import ItemSection from "../components/ItemSection.js"
+import ItemSection from "../../components/ItemSection/ItemSection.js"
+
+import "./HomePage.css"
 
 const HomePage = () => {
 	return (

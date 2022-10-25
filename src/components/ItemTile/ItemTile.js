@@ -1,22 +1,18 @@
 import React, { useState } from "react"
+import { PlayButton } from "../PlayButton/PlayButton.js"
+
+import "./ItemTile.css"
 
 const ItemTile = () => {
 	const [displayButton, setDisplayButton] = useState(0)
 	const [position, setPosition] = useState("0px")
 
-	const buttonStyle = {
+	let style = {
 		position: "absolute",
 		bottom: `${position}`,
 		right: "10px",
-		borderRadius: "100px",
-		height: "50px",
-		width: "50px",
-		alignSelf: "flex-end",
-		backgroundColor: "rgb(89, 255, 43)",
 		transition: "0.3s",
-		opacity: `${displayButton}`,
 	}
-
 	return (
 		<div
 			className="ItemTile"
@@ -30,7 +26,9 @@ const ItemTile = () => {
 			}}
 		>
 			<div id="itemImage">
-				<button id="playButton" style={buttonStyle}></button>
+				<div id="playButtonDiv" style={style}>
+					<PlayButton position={position} displayButton={displayButton} />
+				</div>
 			</div>
 			<div id="itemText">
 				<h3>Title</h3>

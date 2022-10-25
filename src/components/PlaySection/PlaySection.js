@@ -1,8 +1,10 @@
 import React, { useState } from "react"
 
+import './PlaySection.css'
+
 const PlaySection = () => {
 	return (
-		<div className="PlaySection">
+		<footer className="PlaySection">
 			<div id="songInfo">
 				<h4>Song name</h4>
 			</div>
@@ -19,7 +21,7 @@ const PlaySection = () => {
 			<div id="options">
 				<h4>Volume</h4>
 			</div>
-		</div>
+		</footer>
 	)
 }
 

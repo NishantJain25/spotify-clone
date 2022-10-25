@@ -1,0 +1,13 @@
+
+.PlaySection {
+    position: absolute;
+    bottom: 0;
+    width:100vw;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  

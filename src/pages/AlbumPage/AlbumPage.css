@@ -1,0 +1,24 @@
+
+   .ActionButtons {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid orange;
+   }
+
+   #alignLeft, #alignRight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   button{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    justify-content: center;
+   }

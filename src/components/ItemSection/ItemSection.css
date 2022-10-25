@@ -1,0 +1,14 @@
+.ItemSection{
+    margin: 10px 0px;
+}
+.ItemSectionTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ItemTileContainer{
+    display: grid;
+    grid-auto-columns: 175px;
+    grid-auto-flow: column;
+    gap: 25px;
+}
