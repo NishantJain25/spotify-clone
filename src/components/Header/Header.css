@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    height: 64px;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navigationArrows{
+    display: flex;
+    gap: 10px;
+}
+
+.navigationArrows button{
+    background-color: black;
+    opacity: 0.5;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    transition: all 0.3s ease;
+}
+
+.navigationArrows button:hover{
+    opacity: 0.8;
+}
+
+.accountDropdown{
+    position: absolute;
+    right: 2em;
+    display: flex;
+    gap: 5px;
+    background-color: rgba(0,0,0,0.8);
+    align-items: center;
+    height: 35px;
+    padding: 3px;
+    border-radius: 50px;
+    cursor: pointer
+}
+.accountDropdown:hover{
+    background-color:rgba(200,200,200, 0.1);
+}
+.profileImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius:100% ;
+    background-color: grey;
+    font-size: 21px;
+}
+.profileName #name{
+    margin: 0;
+}
+#dropdownButton{
+    justify-self: flex-end;
+    margin-right: 8px;
+    font-size: 1.25em;
+}
+
+.dropdownList{
+    position: absolute;
+    top: 110% ;
+    left: -75%;
+    width: 175%;
+    font-size: 14px;
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 10px 20px 0px  rgb(0,0,0);
+}
+
+.dropdownList a{
+    display: block;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.dropdownList a:last-child{
+    border-top: 1px solid rgba(200,200,200, 0.2);
+    
+}
+.dropdownList a:hover{
+    background-color: rgba(200,200,200, 0.1);
+}
+.dropdownList p{
+    margin: 0;
+}
+

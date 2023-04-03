@@ -1,6 +1,17 @@
 .NavMenu {
     background-color: black;
-    padding: 20px;
+    padding: 2em;
+    min-width: 200px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .logo #spotifyLogo{
+    height: 44px;
+    width: 44px;
   }
   .NavMenu ul{ 
     padding: 0px;

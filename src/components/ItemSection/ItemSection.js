@@ -3,7 +3,7 @@ import ItemTile from "../ItemTile/ItemTile.js"
 
 import "./ItemSection.css"
 
-const ItemSection = (/* title, list of songs */) => {
+const ItemSection = ({ title } /* title, list of songs */) => {
 	return (
 		/* 
 		title
@@ -12,12 +12,11 @@ const ItemSection = (/* title, list of songs */) => {
 
 		*/
 		<section className="ItemSection">
-			<div className = "ItemSectionTitle">
-				<h2>Title</h2>
+			<div className="SectionTitle">
+				<h2>{title}</h2>
 				<button>View all</button>
 			</div>
 			<div className="ItemTileContainer">
-				<ItemTile />
 				<ItemTile />
 				<ItemTile />
 				<ItemTile />

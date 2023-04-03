@@ -1,0 +1,10 @@
+.RecentPlaylistSection{
+    width: 100%;
+}
+
+.RecentPlaylistTiles{
+    display: grid;
+    column-gap: 25px;
+    row-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}

@@ -1,5 +1,8 @@
 .HomePage {
-    padding: 30px;
-    width: inherit;
+    padding: 64px 2em;
+    position: absolute;
+    top: 0px;
+    width: 100%;
     display: block;
+    background: linear-gradient(rgba(200,200,200,0.3) 0px, rgb(24,20,20) 400px);
   }

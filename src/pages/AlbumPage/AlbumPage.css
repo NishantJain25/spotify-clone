@@ -1,13 +1,18 @@
-
+   .AlbumPage{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background:
+			linear-gradient(rgba(200,200,200,0.3) 0%, rgb(24,20,20) 50%);
+   }
    .ActionButtons {
     width: inherit;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
     padding: 20px;
-    border: 1px solid orange;
+   
    }
 
    #alignLeft, #alignRight{
@@ -22,3 +27,22 @@
     text-align: center;
     justify-content: center;
    }
+
+   .ContentTableContainer{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    background-color: transparent;
+      box-sizing: border-box;
+      
+  }
+  
+  /* Make a variable for the grid */
+  .ContentTableHeader{
+      display: grid;  
+      width: 100%;
+      grid-template-columns: 5% 35% 32.5% 10% 5% 7.5% 5% ;
+      padding: 10px 0px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(200,200,200,0.3);
+  }

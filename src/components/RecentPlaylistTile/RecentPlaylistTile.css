@@ -1,0 +1,27 @@
+.RecentPlaylistTile{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(32,32,32);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.RecentPlaylistTile:hover{
+    background-color: rgb(50,50,50);
+}
+#playlistTileImage{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+#playlistName{
+    font-size: 16px;
+    margin: 0;
+}
+.RecentPlaylistTile #playButton{
+    position: absolute;
+    right: 16px;
+}

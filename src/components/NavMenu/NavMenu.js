@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 import { MdHomeFilled, MdAddBox } from "react-icons/md"
 import { FiSearch } from "react-icons/fi"
+import { FaSpotify } from "react-icons/fa"
 import { VscLibrary, VscHeart } from "react-icons/vsc"
 
 import "./NavMenu.css"
@@ -9,6 +10,9 @@ import "./NavMenu.css"
 const NavMenu = () => {
 	return (
 		<div className="NavMenu">
+			<div className="logo">
+				<FaSpotify id="spotifyLogo" />
+			</div>
 			<nav>
 				<ul>
 					<li>

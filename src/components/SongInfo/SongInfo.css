@@ -1,0 +1,34 @@
+#songInfo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+  #songImage{
+    height:  100%;
+    aspect-ratio: 1;
+    background-color: white;
+    position: relative;
+ 
+  }
+ 
+  
+  #songDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  #songDetails #name, #artist{
+    margin: 0;
+  }
+  #name{
+    font-size: 1em;
+  }
+  #artist{
+    font-size: 0.75em;
+    color: #b3b3b3;
+    
+  }

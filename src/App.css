@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 .App {
   font-family: 'montserrat semibold';
   color: white;
@@ -5,7 +8,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 15% 85%;
-  overflow: hidden;
+  overflow:hidden;
   text-overflow: ellipsis;
 }
 

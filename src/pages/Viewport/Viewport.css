@@ -1,0 +1,27 @@
+.viewport{
+    overflow-y: overlay;
+    margin-bottom: 100px;
+    
+    position: relative;
+   
+}
+
+.viewport::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+
+.viewport::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    height: 50px;
+    background-clip: content-box;
+    
+}
+.viewport::-webkit-scrollbar-button{
+    height: 70px;
+}
+
+.viewport::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255,255,255,0.4);
+}
